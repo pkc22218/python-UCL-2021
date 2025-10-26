@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
-
-
 """
 COMP0015 Quilt
 """
+#Description: quilt drawer of simple graphs with input dimensions using ezgraphics.
 
 from ezgraphics import GraphicsWindow
 
