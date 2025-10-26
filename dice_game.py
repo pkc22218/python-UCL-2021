@@ -1,9 +1,8 @@
-# Description: The player throws a die multiple times and attempts to get as
-# close to a score of nine with the sum of his or her throws. If the player
-# scores more than nine points the game ends. The player can choose to stop
-# throwing the die on any turn. If the player scores exactly nine then this
-# is counted as a win. 
-
+"""
+Description: The player throws a die multiple times and attempts to get as close to a score of nine with the 
+sum of his or her throws. If the player scores more than nine points the game ends. The player can choose to stop
+throwing the die on any turn. If the player scores exactly nine then this is counted as a win. 
+"""
 
 # Draw the title
 def box(width = 17, height = 3):
@@ -68,3 +67,4 @@ def main():
 # Start the program          
 if __name__ == "__main__":
     main()
+
