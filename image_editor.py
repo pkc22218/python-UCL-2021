@@ -1,3 +1,29 @@
+#Description: this is a program that can operate the below functions on a image in ppm format
+
+#(a) Functionnegative(image_list)
+#This function returns a 2D array containing the new image pixels. A negative image contains pixels 
+#in which the red, green and blue values have been subtracted from 255. 
+#If a pixel value is [255, 34, 100] then the negative pixel will be: [0, 221, 155]. 
+
+#(b) Functionrotate_left_90(image_list)
+#In this function you will, as the function name suggests, rotate the image image_list by 90 degrees, 
+#rotating it to the left. The source image may have a different width and height as shown in the example below. 
+
+#(c) Functioncrop(image_list,crop_X,crop_Y,crop_width,crop_height)
+#This function returns a 2D array containing the image pixels. 
+#Cropping an image involves reducing the size of the image so that the top-left pixel of new image is the pixel 
+#in the old image with coordinates crop_X and crop_Y. The crop_width and the crop_height are the width and height
+#of the new image in pixels.
+
+#(d) Functionblur(image_list)
+#In this function you will take an image and implement a blur filter. 
+#The algorithm to do this creates a new image in which a pixel’s values are averaged with the values of the 
+#immediate neighbours. 
+#Pixels at the edge of the image need to be treated slightly differently. In this example, consider the pixel 
+#at (1,0). The average has fewer data points and the new pixel generated for the position (1,0) will be:
+#red value: (0 + 100 + 0 + 0 + 0 + 0) / 6 = 16 green value: (0 + 0 + 0 + 0 + 255 + 0) / 6 = 42 
+#bluevalue:(0+0+0+0+175+0) / 6=29 pixel value is [16, 42, 29]
+
 import os
 
 HEADER = 3
@@ -224,4 +250,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
