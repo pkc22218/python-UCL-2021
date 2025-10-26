@@ -1,5 +1,15 @@
-"""COMP0015 grep - a simple search engine
+"""grep - a simple search engine
 """
+#Description: a simple search engine which builds indexes for a given set of files on your computer
+
+# (a) Functioncommon_elements(lis_1,lis_2): lis_1, lis_2 are simple one-dimensional lists. This function returns 
+#a list which contains the elements common to both lists. 
+
+# (b) Functionbuild_index(file_list,index,title_index) In this function you will use the list of file names in 
+#the variable file_list. You will create two indexes index and title_index which are both dictionaries. 
+
+# (c) Functionsearch(index,query): search() function which searches your index. The parameter query is a string
+#containing the words to search for. 
 
 import os, string
 
@@ -169,4 +179,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
