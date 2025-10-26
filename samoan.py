@@ -1,6 +1,7 @@
 """
 COMP0015 Samoan
 """
+# Description: a programme that can tell the pronouciation of a word from the Samoan alphabet.
 
 def play_again():
     """
@@ -157,3 +158,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
