@@ -1,3 +1,23 @@
+#Description: a Player class so that you can make a multiplayer version of the dice game. 
+#Attributes:
+#given_name: Must be greater than 2 characters and must only contain alphabetic characters. 
+#A ValueError exception with a suitable error message must be generated if the given_name is invalid.
+
+#surname: Must be greater than 2 characters and must only contain alphabetic characters. A ValueError 
+#exception with a suitable error message must be generated if the surname is invalid.
+
+#games_played: Must be equal to or greater than 0. A ValueError exception with a suitable error message
+#must be generated if games_played is invalid.
+
+#games_won:Must be equal to or greater than 0. A ValueError exception with a suitable error message must 
+#be generated if games_won is invalid.
+
+#games_bust: Must be equal to or greater than 0. A ValueError exception with a suitable error message must
+#be generated if the games_bust is invalid.
+    
+#num_throws: Must be equal to or greater than 0. A ValueError exception with a suitable error message must 
+#be generated if the num_throws is invalid.
+
 import random
 from player import Player
 
@@ -136,3 +156,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
